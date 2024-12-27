@@ -1,0 +1,270 @@
+/* header section*/
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.img-container{
+    background-image:url("../Images/background.jpg");
+    background-size:cover;
+    height:470px;
+}
+
+.navbar{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     color:#ffffff;
+     font-size:1.5rem;
+     justify-content:space-around;
+     padding-top:20px;
+}
+
+.navbar a{
+    margin-right:20px;
+ }
+
+.logo{
+    padding:3%;
+}
+.zomota-logo{
+    background-image:url("../Images/logo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-left:500px;
+    text-align:center;
+    height:6.3rem;
+    width:30rem;
+    mix-blend-mode: color-dodge;
+
+}
+
+.logo p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:45px;
+    color: #ffffff;
+    padding-top:2%;
+    font-weight:10;
+} 
+
+
+.nav-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    height:90px;
+    width:100%;
+    outline:none;
+    padding:11px;
+    border-radius:4px;
+}
+input{
+    padding:10px;
+    width:40%;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px; 
+    border:none;
+    font-size:21px;
+}
+.nav-container i{
+    background-color:white;
+    color:#9AA6B2;
+    border:none;
+    padding:12px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px; 
+    font-size:21px;
+}
+
+input:hover{
+    border:2px solid orange;
+    border:none;
+}
+
+/* main section */
+
+.content-section1{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    justify-content:space-evenly;
+    margin:20px 20px 20px 20px;
+    flex-wrap:wrap;
+}
+
+.box-content{
+    border-radius:7px;
+}
+
+.box{
+    height:250px;
+    width:450px; 
+    margin:20px;
+}
+.box1-img{
+    background-image:url("../Images/WhatsApp Image 2024-12-23 at 19.12.38_f8c025ba.jpg");
+    background-size:cover;
+    height:280px;
+    border-radius:5px;
+}
+
+.box2-img{
+    background-image:url("../Images/rice.jpg");
+    background-size:cover;
+    height:280px;
+    border-radius:5px;
+}
+
+.box3-img{
+    background-image:url("../Images/WhatsApp Image 2024-12-23 at 19.12.38_be6ff71e.jpg");
+    background-size:cover;
+    height:280px;
+    border-radius:5px;
+}
+ 
+
+.box4-img{
+
+    height:400px;
+    width:100%;
+    padding:7% 20px 0px 3%;
+    
+}
+.box4-text{
+    margin-left:10px;
+}
+.box4-content{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.boxes{
+   height:250px;
+   width:450px; 
+   margin:20px;
+   border-radius:5px;
+}
+.box5-img{
+    background-image:url("../Images/WhatsApp Image 2024-12-23 at 19.12.39_3988113d.jpg");
+    background-size:cover;
+}
+
+.box6-img{
+    background-image:url("../Images/WhatsApp Image 2024-12-23 at 19.12.39_c1c89ca6.jpg");
+    background-size:cover;
+}
+
+
+.box7-img{
+    background-image:url("../Images/WhatsApp Image 2024-12-23 at 19.12.38_88c76443.jpg");
+    background-size:cover;
+}
+
+
+.box8-img{
+    background-image:url("../Images/b.jpg");
+    background-size:cover;
+}
+
+
+
+.box-9{
+   height:660px;
+   width:100%;
+   margin-top:10%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background-color:#F8E8EE;
+}
+
+.mobile{
+    background-image:url("../Images/mobile.jpg");
+    background-size:cover;
+    height:660px;
+    width:27%;
+    border-radius:7%;
+} 
+
+.box-9 b{
+    font-size:2rem;
+    font-weight:700;
+    margin-left:5%;
+    margin-bottom:5%;
+}
+
+.box-10{
+    padding:5%;
+    height:400px;
+    width:100%;
+    margin-top: 10px;
+}
+.button{
+    text-align:center;
+}
+button{
+    height:40px;
+    width:1100px;
+    margin-top:20px;
+    border:none;
+}
+
+button:hover{
+    border:1PX solid wheat;
+}
+
+h2{
+   margin-left:10%;
+}
+
+ /* footer-section */
+
+.footer-section{
+    margin-top:5px;
+    background-color:#F8E8EE;
+    color:black;
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-section ul{
+    display:block;
+    margin-right:10%;
+    font-size:1.5rem;
+    margin:5%;
+    margin-top:3%;
+}
+.footer-section p{
+    font-size:1.2rem;
+    margin-left:7px;
+}
+
+.footer-section a{
+    font-size:0.95rem;
+    color:#9AA6B2;
+    font-weight:500;
+    display:block;
+    margin-right:10%;
+    margin:5%;
+    margin-top:5%;
+}
+.footer-section i{
+    color:black;
+}
+.social-icon{
+    display:flex; 
+    margin-top:5%;  
+} 
